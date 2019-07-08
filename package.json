@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "eslint-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "encrypt": "node crypto.js encrypt",
+    "decrypt": "node crypto.js decrypt",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "json-stringify-deterministic": "^1.0.1"
+  }
+}
